@@ -212,7 +212,7 @@ export const experiences = [
     desc: "•  I developed time-series forecasting models (ARIMA, SARIMA, Prophet) to predict weekly sales trends, reducing stockouts by 20% and optimizing inventory management. Using hypothesis testing and chi-square analysis, I uncovered a strong link between competitive pricing and repeat purchases, boosting customer retention by 10%. Additionally, I analyzed historical sales data to identify seasonal demand spikes, implementing predictive inventory forecasting, which further reduced stockouts by 25%.",
     skills: [
       "React JS",
-      "HTMLd",
+      "HTMLds",
       "CSS",
       "JavaScript",
       "Python",
