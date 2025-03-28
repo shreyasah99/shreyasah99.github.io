@@ -29,7 +29,7 @@ export const skills = [
       },
       {
         name: "SAS",
-        image: "/images/sas.png",
+        image: "${process.env.PUBLIC_URL}/images/sas.png",
       },
       {
         name: "MySQL",
@@ -46,7 +46,7 @@ export const skills = [
     skills: [
       {
         name: "Machine Learning",
-        image: "/images/ML.png",
+        image: "${process.env.PUBLIC_URL}/images/ML.png",
       },
       {
         name: "Data Modeling",
@@ -54,7 +54,7 @@ export const skills = [
       },
       {
         name: "Data Preprocessing",
-        image: "/images/preprocessing.png",
+        image: "${process.env.PUBLIC_URL}/images/preprocessing.png",
       },
       {
         name: "EDA",
@@ -62,11 +62,11 @@ export const skills = [
       },
       {
         name: "Statistical Analysis",
-        image: "/images/stats.png",
+        image: "${process.env.PUBLIC_URL}/images/stats.png",
       },
       {
         name: "Agentic LLMs",
-        image: "/images/LLM.png",
+        image: "${process.env.PUBLIC_URL}/images/LLM.png",
       },
     ],
   },
@@ -83,7 +83,7 @@ export const skills = [
       },
       {
         name: "Excel",
-        image: "/images/excel.png",
+        image: "${process.env.PUBLIC_URL}/images/excel.png",
       },
       {
         name: "Spark",
