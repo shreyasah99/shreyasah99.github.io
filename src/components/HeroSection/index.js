@@ -33,7 +33,7 @@ const HeroSection = () => {
 
                     <HeroRightContainer id="Right">
 
-                        <Img src="/images/Personal.JPG" alt="hero-image" />
+                    <Img src="https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/Personal.JPG" alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
 
