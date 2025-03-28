@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          I have worked on a wide range of projects, from ML Models, Analytics to GenAI. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -21,22 +21,22 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+          {toggle === 'GenAI/LLMs' ?
+            <ToggleButton active value="GenAI/LLMs" onClick={() => setToggle('GenAI/LLMs')}>GenAI/LLMs</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="GenAI/LLMs" onClick={() => setToggle('GenAI/LLMs')}>GenAI/LLMs</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>AI / ML APP'S</ToggleButton>
+          {toggle === 'ML' ?
+            <ToggleButton active value="ML" onClick={() => setToggle('ML')}>ML</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>AI / ML APP'S</ToggleButton>
+            <ToggleButton value="ML" onClick={() => setToggle('ML')}>ML </ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>Other APP'S</ToggleButton>
+          {toggle === 'Analytics/ Statistics' ?
+            <ToggleButton active value="Analytics/ Statistics" onClick={() => setToggle('AAnalytics/ Statistics')}>Analytics/ Statistics</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>Other APP'S</ToggleButton>
+            <ToggleButton value="Analytics/ Statistics" onClick={() => setToggle('Analytics/ Statistics')}>Analytics/ Statistics</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

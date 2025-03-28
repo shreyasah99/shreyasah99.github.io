@@ -38,7 +38,9 @@ const Card = styled.div`
     }
 `
 
-const Image = styled.img`
+const Image = styled.img.attrs(() => ({
+    referrerPolicy: "no-referrer"
+  }))`
     width: 100%;
     height: 180px;
     background-color: ${({ theme }) => theme.white};
