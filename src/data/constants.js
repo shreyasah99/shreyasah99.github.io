@@ -29,7 +29,7 @@ export const skills = [
       },
       {
         name: "SAS",
-        image: "${process.env.PUBLIC_URL}/images/sas.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/sas.PNG",
       },
       {
         name: "MySQL",
@@ -46,7 +46,7 @@ export const skills = [
     skills: [
       {
         name: "Machine Learning",
-        image: "${process.env.PUBLIC_URL}/images/ML.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/ML.PNG",
       },
       {
         name: "Data Modeling",
@@ -54,7 +54,7 @@ export const skills = [
       },
       {
         name: "Data Preprocessing",
-        image: "${process.env.PUBLIC_URL}/images/preprocessing.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/preprocessing.PNG",
       },
       {
         name: "EDA",
@@ -62,11 +62,11 @@ export const skills = [
       },
       {
         name: "Statistical Analysis",
-        image: "${process.env.PUBLIC_URL}/images/stats.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/Stats.PNG",
       },
       {
         name: "Agentic LLMs",
-        image: "${process.env.PUBLIC_URL}/images/LLM.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/LLM.PNG",
       },
     ],
   },
@@ -83,7 +83,7 @@ export const skills = [
       },
       {
         name: "Excel",
-        image: "${process.env.PUBLIC_URL}/images/excel.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/excel.PNG",
       },
       {
         name: "Spark",
@@ -95,15 +95,15 @@ export const skills = [
       },
       {
         name: "Snowflake",
-        image: "/images/snowflake.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/snowflake.PNG",
       },
       {
         name: "Hive",
-        image: "/images/hive.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/hive.PNG",
       },
       {
         name: "Airflow",
-        image: "/images/Airflow.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/airflow.PNG",
       },
     ],
   },
@@ -120,11 +120,11 @@ export const skills = [
       },
       {
         name: "GCP",
-        image: "/images/GCP.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/GCP.PNG",
       },
       {
         name: "CI/CD Pipelines",
-        image: "/images/CICD.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/CICD.PNG",
       },
       {
         name: "Jenkins",
@@ -132,7 +132,7 @@ export const skills = [
       },
       {
         name: "Unix",
-        image: "/images/Unix.png",
+        image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/Unix.PNG",
       },
       {
         name: "Git",
@@ -146,7 +146,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "/images/Thunderbird.png",
+    img: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/Thunderbird.PNG",
     role: "Graduate Research Assistant (Data Analyst)",
     company: "Thunderbird School of Global Management",
     date: "August 2024 - April 2024",
@@ -179,7 +179,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "/images/Accenture.png",
+    img: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/Accenture.PNG",
     role: "Data Science Analyst",
     company: "Accenture",
     date: "June 2021 - July 2023",
@@ -196,7 +196,7 @@ export const experiences = [
   },
     {
     id: 3,
-    img: "/images/suven.png",
+    img: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/suven.PNG",
     role: "Machine Learning Intern",
     company: "Suven Technology",
     date: "June 2020 - July 2020",
@@ -213,7 +213,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "/images/ASU.png",
+    img: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/ASU.PNG",
     school: "Arizona State University, Tempe, AZ, United States",
     date: "August 2023 - May 2025",
     grade: "4.0 / 4.0 GPA",
@@ -222,7 +222,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "/images/UniMumbai.png",
+    img: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/UniMumbai.PNG",
     school: "University of Mumbai, Mumbai, MH, India",
     date: "August 2017 - June 2021",
     grade: "3.5 / 4.0 GPA",
@@ -238,7 +238,7 @@ export const projects = [
     date: "December 2024",
     description:
      "AnAI-powered multimodal question-answering system integrating text, image, and table data using an agent-based LLM framework.",
-    image: "/images/VLM_on_multilodal.webp",
+    image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/VLM_on_multilodal.webp",
     tags: ["Multimodal AI", "LLMs", "LangChain", "Gemini Pro", "Agentic Framework"],
     category: "GenAI/LLMs",
     github: "https://github.com/shreyasah99/VLM-on-Multimodal-LLM-QA-Using-Agentic-Framework",
@@ -251,7 +251,7 @@ export const projects = [
     description:
       "​An AI-driven application that assists job seekers in enhancing their resumes by analyzing job descriptions, providing detailed feedback, suggesting skill improvements, and calculating a match percentage to increase job acquisition success.",
     image:
-      "/images/Resume Analysis.webp",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/Resume%20Analysis.webp",
     tags: ["AI", "Resume Enhancement","Job Matching", "LangChain", "FAISS", "HuggingFace", "Streamlit", "Llama"],
     category: "GenAI/LLMs",
     github: "https://github.com/shreyasah99/ResumeAI",
@@ -264,7 +264,7 @@ export const projects = [
     description:
       "A Streamlit-based AI app that converts natural language queries into SQL using Groq’s LLaMA3 model to retrieve data from database",
     image:
-      "/images/Text to sql.webp",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/Text%20to%20sql.webp",
     tags: ["LLM", "Groq API", "LangChain", "Text-to-SQL", "Streamlit", "SQLite", "Conversational AI", "NLP"],
     category: "GenAI/LLMs",
     github: "https://github.com/shreyasah99/Text-to-SQL-Conversational-AI-for-Database-Interaction",
@@ -277,7 +277,7 @@ export const projects = [
     description:
       "This project leverages GPT Index, Llama Index, and Streamlit. Users inquire, and GPT models extract answers from PDFs, offering swift, contextually rich responses. With an intuitive interface, this application enhances information retrieval and comprehension, showcasing the power of advanced natural language processing and streamlined document interaction.",
     image:
-      "/images/PDf search.webp",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/PDf%20search.webp",
     tags: ["GPT Index", "Llama Index", "Streamlit", "Python"],
     category: "GenAI/LLMs",
     github: "https://github.com/shreyasah99/-pdf-search-summarization",
@@ -290,7 +290,7 @@ export const projects = [
     description:
       "An ML-driven approach to predict Customer Lifetime Value (CLTV) and segment insurance customers for targeted policy personalization and optimized marketing.",
     image:
-      "/images/cltv and segmentation.webp",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/cltv%20and%20segmentation.webp",
     tags: ["Regression (Gradient Boosting)", "Python", "Clustering (KMeans)", "Insurance Analytics", "Customer Segmentation", "CLTV Prediction"],
     category: "ML",
     github: "https://github.com/shreyasah99/CLTV-Prediction-and-Customer-Segmentation",
@@ -303,7 +303,7 @@ export const projects = [
     description:
       "An interpretable AI system that predicts heart attack risk and uncovers the causal impact of lifestyle choices using machine learning and DoWhy-based causal inference.",
     image:
-      "/images/heart disease.webp",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/heart%20disease.webp",
     tags:  ["Healthcare AI", "Causal Inference", "Heart Disease Prediction","EBM"]    ,
     category: "ML",
     github: "https://github.com/shreyasah99/Heart-Attack-Prediction-Causal-Analysis",
@@ -316,7 +316,7 @@ export const projects = [
     description:
       "An end-to-end MLOps pipeline for forecasting Crude Oil prices using macroeconomic indicators, powered by H2O AutoML, MLflow, and Evidently AI on Databricks.",
     image:
-      "/images/crude oil.webp",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/crude%20oil.webp",
     tags:  ["MLOps", "H2O AutoML", "MLflow", "Databricks", "Evidently AI", "Random Forest", "Commodity Price Prediction"]    ,
     category: "ML",
     github: "https://github.com/shreyasah99/Crude_Oil_Price_Predictor-MLOps",
@@ -329,7 +329,7 @@ export const projects = [
     description:
       "A hybrid recommendation engine that combines collaborative filtering, popularity-based ranking, and customer segmentation to predict personalized fashion purchases for H&M customers.",
     image:
-      "/images/HM.webp",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/HM.webp",
     tags:  ["Recommender Systems", "Ensemble Learning", "Retail Analytics", "Kaggle", "Fashion AI"]    ,
     category: "ML",
     github: "https://github.com/shreyasah99/H-M-Personalized-Fashion-Recommendation-System",
@@ -342,7 +342,7 @@ export const projects = [
     description:
       "Hypothesis-driven statistical analysis of credit card customer data to uncover factors influencing credit limits and attrition risk.",
     image:
-      "/images/Hypothesis.png",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/Hypothesis.png",
     tags:  ["Hypothesis Testing", "Statistical Analysis", "Credit Risk", "EDA", "Customer Behavior"]    ,
     category: "Analytics/ Statistics",
     github: "https://github.com/shreyasah99/Hypothesis-Driven-Analysis-on-Credit-Limits-and-Attrition",
@@ -354,7 +354,7 @@ export const projects = [
     date: "December 2024",
     description:
       "An end-to-end data pipeline project using Alteryx and Talend for ETL, dimensional modeling, and visualization to analyzex NYC motor vehicle collisions to uncover key accident patterns and high-risk zones.",
-    image: "/images/motor.png",
+    image: "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/motor.png",
     tags:  ["Data Engineering", "ETL", "Alteryx", "Talend", "Dimensional Modeling", "Analysis, Visualization"]    ,
     category: "Analytics/ Statistics",
     github: "https://github.com/shreyasah99/ETL-and-Analysis-of-Motor-Vehicle-Collision",
@@ -367,7 +367,7 @@ export const projects = [
     description:
       "Interactive Tableau dashboard visualizing customer shopping trends, product preferences, and revenue insights to support data-driven business decisions.",
     image:
-      "/images/ift533.png",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/ift533.png",
     tags:  ["Tableau", "Data Visualization", "Dashboard Design", "Business Intelligence", "Retail Analytics", "Customer Behavior"]    ,
     category: "Analytics/ Statistics",
     github: "https://github.com/shreyasah99/Dashboard-Shopping-Trends-and-Customer-Behavior",
@@ -380,7 +380,7 @@ export const projects = [
     description:
       "A real-time ETL pipeline for insurance claims data built with Python, AWS, Snowflake, and Airflow, enabling automated processing and visualization of structured claim insights in Tableau.",
     image:
-      "/images/insuarance.png",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/insuarance.png",
     tags:  ["ETL Pipeline", "Apache Airflow", "AWS S3", "Snowflake", "Insurance Analytics", "Data Engineering", "Tableau", "API"]   ,
     category: "Analytics/ Statistics",
     github: "https://github.com/shreyasah99/Real-Time-Insurance-Claims-Data-ETL-Pipeline",
@@ -393,7 +393,7 @@ export const projects = [
     description:
       "An end-to-end ETL pipeline that ingests, processes, and visualizes FDA drug adverse event data using Python, Snowflake, Airflow, Docker, and Tableau for enhanced drug safety monitoring.",
     image:
-      "/images/drug.png",
+      "https://raw.githubusercontent.com/shreyasah99/shreyasah99.github.io/gh-pages/Images/drug.png",
     tags:  ["ETL Pipeline", "Data Engineering",  "Apache Airflow", "Snowflake", "Docker", "Tableau", "Python"]   ,
     category: "Analytics/ Statistics",
     github: "https://github.com/shreyasah99/FDA-Drug-Adverse-Events-End-to-End-ETL-and-Analytics-Pipeline",
