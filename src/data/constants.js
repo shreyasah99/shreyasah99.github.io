@@ -10,7 +10,7 @@ export const Bio = {
   "Data Scientist with 3+ YoE, specializing in machine learning, big data analytics, and AI-driven solutions across finance, retail, and customer analytics. Skilled in developing scalable models and leveraging predictive analytics to optimize decision-making and drive business impact. Actively seeking a full-time position in a Data Science-focused role.",
   github: "https://github.com/shreyasah99",
   resume:
-    "https://drive.google.com/file/d/11Cr3igsFgD_aDnU-kHLsfCMtTDtcAd2I/view?usp=sharing",
+    "https://drive.google.com/file/d/1vGF0QVHi1R9EHqqDh7ZnDyk62WO7SXaC/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/shreyas-hingmire/",
   insta: "https://www.instagram.com/shreyas__hingmire/",
 };
